@@ -152,6 +152,9 @@ class Homestead
     # Install OCI8 and InstantClient.
     config.vm.provision "shell", path: "scripts/oci8.sh"
 
+    # Install LDAP PHP extension.
+    config.vm.provision "shell", path: "scripts/ldap.sh"
+
     # Install extras.git
     config.vm.provision "shell", path: "scripts/extras.sh"
 
