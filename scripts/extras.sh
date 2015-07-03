@@ -2,7 +2,10 @@
 gem install sass
 
 # Install xclip
-sudo apt-get install xclip
+apt-get install xclip
+
+# Install
+npm install -g flightplan
 
 # Fix for VirtualBox Guest Additions
 # sudo ln -s /opt/VBoxGuestAdditions-4.3.10/lib/VBoxGuestAdditions /usr/lib/VBoxGuestAdditions
