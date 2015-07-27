@@ -2,11 +2,11 @@
 gem install sass
 
 # Install xclip
-apt-get install xclip
+apt-get install -y xclip
 
 # Install Exuberant Ctags to gererate index in project (e.g. for classes/methods)
 # http://ctags.sourceforge.net/
-apt-get install exuberant-ctags
+apt-get install -y exuberant-ctags
 
 # Install flightplan Node module (for scripting deployment)
 npm install -g flightplan
